@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto+Mono:wght@300;400;600;700&display=swap');
+
+
+
+
+/* ###################################################### */
+/* ###################################################### */
+/* ############## GLOBAL VARIABLES STYLES ##############  */
+/* ###################################################### */
+/* ###################################################### */
+
+html {
+    /* ======================================== */
+    /* ===== Colors, Shadows and Borders ====== */
+    /* ======================================== */
+
+    /* Colors */
+    --primary-color: #4E1616;
+    --secondary-color: #d0c16b;
+    --light--color: #FFFFFF;
+
+    /* Font Colors */
+    --dark-text: ;
+    --light-text: #FFFFFF;
+    --active-color: #B5A962;
+    --link-color: #FFFFFF;
+
+    /* Backgrounds */
+    --bg-primary--color: #0D0D0D;
+    --bg-secondary--color: #1C1C1C;
+    --bg-light--color: #f5f7fa;
+
+    /* Shadows */
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
+
+    /* Borders */
+    --border-secondary: 1px solid var(--secondary-color);
+    --border-primary: 1px solid var(--primary-color);
+    --border-light: 1px solid var(--light--color);
+
+    /* ======================================================= */
+    /* ========== Fonts Sizes, Weights, and Heights ========== */
+    /* ======================================================= */
+
+    /* Font Family */
+    --text-font: "Roboto+Mono", Verdana, Geneva, Tahoma, sans-serif;
+    --headings-font: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+
+    /* Font Sizes */
+    font-size: 16px;
+    --regular-size: 1rem;
+    --small-size: 0.9rem;
+    --large-size: 1.2rem;
+
+    /* Heading sizes */
+    --desktop-heading: 4rem;
+    --mobile-heading: 4rem;
+
+    /* Font Weight */
+    --light: 300;
+    --regular: 400;
+    --semi-bold: 600;
+    --bold-merriweather-bold: 700;
+
+    /* ======================================== */
+    /* ======= Margin, Padding, and Gap ======= */
+    /* ======================================== */
+    /* Desktop Padding */
+    --no-gap: 0;
+    --small-gap: 1em;
+    --regular-gap: 1.5em;
+    --medium-gap: 3em;
+    --large-gap: 6em;
+    --no-padding: 0;
+    --container-padding: 0 1em 0 1em;
+    --desktop-section-padding: 6em 0;
+    --primary-cta-padding: 1.5em 3em;
+    --secondary-cta--padding: 0.8em 2em;
+    --card-padding: 2em 0;
+
+    /* Media Queries Padding */
+    --mobile-section-padding: 3em 0;
+
+    /* Margin */
+    --no-margin: 0;
+    --primary-cta--margin: 1.5em 0 0;
+    --secondary-cta--margin: 1.2em 0 0;
+    --card-link--margin: 0 0 1em;
+
+    /* ======================================== */
+    /* ============ Transitions =============== */
+    /* ======================================== */
+    --transition: all 0.2s linear;
+}

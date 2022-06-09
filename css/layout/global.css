@@ -1,0 +1,129 @@
+/* ###################################################### */
+/* ###################################################### */
+/* ################ GLOBAL LAYOUT STYLES ###############  */
+/* ###################################################### */
+/* ###################################################### */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* ====================================================== */
+/* ================ Body Global Styles =================  */
+/* ====================================================== */
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: var(--text-font);
+    background-color: var(--bg-primary--color);
+    color: var(--light-text);
+    font-weight: var(--regular);
+    font-size: var(--regular-size);
+    margin: var(--no-margin);
+    padding: var(--no-padding);
+    line-height: 1.4rem;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* ###################################################### */
+/* ############### DESKTOP GLOBAL STYLES ###############  */
+/* ###################################################### */
+
+/* ============== Section Global Styles ================  */
+
+section {
+    padding: var(--desktop-section-padding);
+    margin: var(--no-margin);
+}
+
+/* ============= Container Global Styles ===============  */
+
+.container {
+    position: relative;
+    max-width: 1300px;
+    width: 100%;
+    padding: var(--container-padding);
+    margin: 0 auto;
+}
+
+.nav-container {
+    position: relative;
+    max-width: 1300px;
+    width: 100%;
+    padding: var(--no-padding);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* ====================================================== */
+/* ================ Images Global Styles ===============  */
+/* ====================================================== */
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ====================================================== */
+/* ================= List Global Styles ================  */
+/* ====================================================== */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ====================================================== */
+/* ================= Links Global Styles ===============  */
+/* ====================================================== */
+
+.active {
+    color: var(--active-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+    font-weight: var(--regular);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.card-link {
+    display: inline-block;
+    font-family: var(--headings-font);
+    font-size: var(--small-size);
+    color: var(--link-color);
+    margin: var(--card-link--margin);
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ###################################################### */
+/* ###################################################### */
+/* ############ MEDIA QUERIES GLOBAL STYLES ############  */
+/* ###################################################### */
+/* ###################################################### */
+
+@media (max-width: 800px) {
+
+    /* ====================================================== */
+    /* ===== Section Global Styles (max-width: 800px) ======  */
+    /* ====================================================== */
+    section {
+        padding: var(--mobile-section-padding);
+    }
+
+    /* ====================================================== */
+    /* ==== Container Global Styles (max-width: 800px) =====  */
+    /* ====================================================== */
+
+}

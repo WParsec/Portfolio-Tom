@@ -1,0 +1,27 @@
+.flex-row {
+    display: flex;
+}
+
+.f-nowrap-center-al-center {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.f-dir-row {
+    flex-direction: row;
+}
+
+.f-just-space-between {
+    justify-content: space-between;
+}
+
+/* ###################################################### */
+/* ################### MEDIA QUERIES ###################  */
+/* ###################################################### */
+
+@media (max-width: 800px) {
+    .f-dir-row {
+        flex-direction: column;
+    }
+}
