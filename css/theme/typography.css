@@ -48,11 +48,21 @@ h4 {
 /* ###################### PARAGRAPHS ######################  */
 
 p {
+    color: var(--light-text);
+}
+
+p {
     font-family: var(--text-font);
 }
 
 .p-large {
     font-size: var(--large-size);
+}
+
+.p-small {
+    font-size: var(--small-size);
+    font-family: var(--headings-font);
+    text-transform: uppercase;
 }
 
 
@@ -72,9 +82,13 @@ span {
 /* <<<------------------------------------------------------------->>> */
 /* <<<------------ TYPOGRAPHY STYLES (max-width: 800px) ----------->>> */
 /* <<<------------------------------------------------------------->>> */
+
+@media (max-width: 1030px) {}
+
+
 @media (max-width: 800px) {
     h1 {
-        font-size: var(--mobile-heading);
+        font-size: var(--desktop-heading);
     }
 
     h2 {

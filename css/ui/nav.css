@@ -14,7 +14,7 @@
 }
 
 .nav-wrapper {
-    padding: 1em 2em;
+    padding: 1em 1em;
     width: 100%;
     max-width: 1300px;
     margin: auto;
@@ -54,8 +54,8 @@ li a {
 .toggle-menu {
     display: none;
     position: absolute;
-    top: 1rem;
-    right: 2rem;
+    top: 0.5rem;
+    right: 1rem;
     cursor: pointer;
     display: none;
 }
@@ -73,7 +73,7 @@ li a {
     height: 2px;
     min-width: 3rem;
     background-color: var(--light-text);
-    transition: 700ms;
+    transition: 300ms;
 }
 
 .menu-button-burger::before,
@@ -87,12 +87,12 @@ li a {
 
 .menu-button-burger::before {
     transform: translateY(-1rem);
-    transition: 700ms;
+    transition: 300ms;
 }
 
 .menu-button-burger::after {
     transform: translateY(1rem);
-    transition: 700ms;
+    transition: 300ms;
 }
 
 .toggle-menu.open .menu-button-burger {
@@ -140,14 +140,17 @@ li a {
     font-family: var(--heading-font);
     font-size: var(--small-size);
     font-weight: var(--regular);
-    background-color: var(--primary-color);
+    background: linear-gradient(to bottom, #6c1e1e, var(--primary-color));
     padding: var(--primary-cta-padding);
-    color: var(--dark-text);
+    color: var(--link-color);
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     border: none;
     cursor: pointer;
+    min-width: 200px;
+    border-radius: 4px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.717);
 }
 
 
@@ -159,7 +162,7 @@ li a {
     .nav-wrapper {
         display: block;
         height: 88px;
-        transition: 700ms;
+        transition: 300ms ease-in-out;
     }
 
     .nav-ul {

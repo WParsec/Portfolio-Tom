@@ -19,7 +19,6 @@ body {
     grid-template-rows: auto 1fr auto;
     font-family: var(--text-font);
     background-color: var(--bg-primary--color);
-    color: var(--light-text);
     font-weight: var(--regular);
     font-size: var(--regular-size);
     margin: var(--no-margin);
@@ -36,6 +35,7 @@ body {
 /* ============== Section Global Styles ================  */
 
 section {
+    min-height: 100vh;
     padding: var(--desktop-section-padding);
     margin: var(--no-margin);
 }
@@ -94,6 +94,10 @@ a {
 
 a:active {
     text-decoration: none;
+}
+
+a:hover {
+    color: var(--heading-color);
 }
 
 .card-link {

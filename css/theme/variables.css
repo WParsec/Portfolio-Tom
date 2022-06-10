@@ -22,9 +22,10 @@ html {
 
     /* Font Colors */
     --dark-text: ;
-    --light-text: #FFFFFF;
+    --light-text: #e1e1e1;
     --active-color: #B5A962;
-    --link-color: #FFFFFF;
+    --link-color: #e1e1e1;
+    --heading-color: #FFFFFF;
 
     /* Backgrounds */
     --bg-primary--color: #0D0D0D;
@@ -56,7 +57,7 @@ html {
 
     /* Heading sizes */
     --desktop-heading: 4rem;
-    --mobile-heading: 4rem;
+    --mobile-heading: 3rem;
 
     /* Font Weight */
     --light: 300;
@@ -67,6 +68,7 @@ html {
     /* ======================================== */
     /* ======= Margin, Padding, and Gap ======= */
     /* ======================================== */
+
     /* Desktop Padding */
     --no-gap: 0;
     --small-gap: 1em;
@@ -78,19 +80,22 @@ html {
     --desktop-section-padding: 6em 0;
     --primary-cta-padding: 1.5em 3em;
     --secondary-cta--padding: 0.8em 2em;
-    --card-padding: 2em 0;
+    --card-padding: 2.5em;
 
     /* Media Queries Padding */
     --mobile-section-padding: 3em 0;
+    --mobile-card-padding: 1.5em;
 
     /* Margin */
     --no-margin: 0;
     --primary-cta--margin: 1.5em 0 0;
     --secondary-cta--margin: 1.2em 0 0;
     --card-link--margin: 0 0 1em;
+    --medium-margin: 4em;
+    --card-img-margin-bottom: 1em;
 
     /* ======================================== */
     /* ============ Transitions =============== */
     /* ======================================== */
-    --transition: all 0.2s linear;
+    --transition: all 0.5s linear;
 }
