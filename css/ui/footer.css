@@ -1,0 +1,40 @@
+footer {
+    background: var(--bg-primary--color);
+}
+
+.footer-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--desktop-section-padding);
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: var(--regular-gap);
+
+}
+
+
+/* ###################################################### */
+/* ################### MEDIA QUERIES ###################  */
+/* ###################################################### */
+
+
+@media screen and (max-width: 800px) {
+    .footer-main {
+        flex-direction: column;
+        align-items: center;
+        gap: var(--large-gap);
+    }
+
+    .footer-contact-info {
+        text-align: center;
+    }
+
+    .footer-links {
+        align-items: center;
+    }
+}

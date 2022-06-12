@@ -49,10 +49,8 @@ h4 {
 
 p {
     color: var(--light-text);
-}
-
-p {
     font-family: var(--text-font);
+    margin-bottom: 1em;
 }
 
 .p-large {
