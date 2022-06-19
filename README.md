@@ -1,7 +1,5 @@
 # Portfolio
 
-![futuredawn-img](https://user-images.githubusercontent.com/91538926/171017547-03af3aef-78ee-4eb3-9b2e-a4e5d02ad547.png)
-
 Portfolio website
 
 ## Description
